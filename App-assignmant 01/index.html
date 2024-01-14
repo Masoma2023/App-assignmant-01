@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./style.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+ <div class="container">
+    <h1 id="title">Move Survey Form</h1>
+    <p id="title">You can write your information here</p>
+    
+<form id="Survey-form">
+    <div class="form">
+		<legend>FullName</legend>
+    <label for="fullname"></label>
+    <input id="name-label" type="text" name="FullName" placeholder="your name">
+    </div>
+    <div class="form">
+		<legend>Emailaddras</legend>
+    <label for="email"></label>
+    <input id="email-label" type="text" name="email" placeholder="your email">
+    </div>
+    <div class="form">
+		<legend>Number</legend>
+    <label for="number"></label>
+    <input id="number-label" type="number" name="number" placeholder="your number">
+ </div>
+     <div>
+        <legend>How was the qualite of your buying?</legend>
+            <label><input id="gread" type="radio" name="gread" value="graed"> Gread</label>
+            <label><input id="good" type="radio" name="good" value="good"> Good</label>
+            <label><input id="bad" type="radio" name="bad" value="bad"> Bad</label>
+            </div>
+            <div>
+				<legend>Choes your style:</legend>
+            <label></label>
+          <input id="text-label" type="text" placeholder="">
+          </div>
+          <div>
+			<legend>Where did you hear from us?</legend>
+           <label for="select-where"></label>
+           <select id="select-where " required>
+               <option value="">Please choose one option:</option>
+               <option value="friends">Friends and family</option>
+               <option value="youtube">YouTube video </option>
+               <option value="podcast">Podcast </option>
+               <option value="ad">Fasebook ad </option>
+               <option value="others">others </option>
+             </select> 
+             </div>
+             <div>
+				<legend>Comment</legend>
+        <label for="comment"></label>
+        <textarea type="text" id="comment"></textarea>
+        </div>
+	</form>
+
+        <a class="linke" href="./confirmation.html"> <input type="submit" id="submit"></a>
+
+ </div> 
+ </main>  
+</body>
+</html>
